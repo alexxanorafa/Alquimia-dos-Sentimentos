@@ -10,20 +10,22 @@
   <meta property="og:description" content="Sistema avançado de análise de frequências temporais com física quântica e neurociência aplicada">
   <meta property="og:type" content="website">
   
+  <!-- Preconnect para performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
   <title>Alquimia dos Sentimentos</title>
   <link rel="stylesheet" href="style.css">
-  
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%2300f2ff%22 stroke-width=%221.5%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><circle cx=%2212%22 cy=%2212%22 r=%2210%22/><path d=%22M12 2v20M2 12h20M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10z%22/></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⏳</text></svg>">
 </head>
 <body>
+  <!-- Camada de loading quântico -->
   <div class="quantum-loader" id="quantumLoader">
     <div class="superposition"></div>
     <div class="collapse-text">Colapsando função de onda...</div>
   </div>
 
+  <!-- Menu principal -->
   <header>
     <button class="menu-icon" id="menuIcon" aria-label="Abrir menu" aria-expanded="false">
       <span></span>
@@ -39,9 +41,7 @@
       
       <div class="search-box">
         <input type="text" placeholder="Buscar portal..." id="menuSearch" aria-label="Buscar no menu">
-        <span class="search-icon">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        </span>
+        <span class="search-icon">🔍</span>
       </div>
       
       <div class="categories">
@@ -108,7 +108,9 @@
     </nav>
   </header>
 
+  <!-- Conteúdo principal -->
   <div class="app-wrapper">
+    <!-- Painel esquerdo - Física Quântica -->
     <aside class="side-bar quantum-panel">
       <div class="panel-title">
         <h4>Painel Quântico</h4>
@@ -118,6 +120,7 @@
       <div class="quantum-clock">
         <svg class="clock-svg" viewBox="0 0 100 100">
           <circle cx="50" cy="50" r="45" class="face quantum-face"/>
+          <!-- Efeito de onda quântica -->
           <circle cx="50" cy="50" r="35" class="wave-ring" id="waveRing1"/>
           <circle cx="50" cy="50" r="25" class="wave-ring" id="waveRing2"/>
           
@@ -125,6 +128,7 @@
           <line id="m-left" x1="50" y1="50" x2="50" y2="15" class="hand min quantum-hand"/>
           <line id="s-left" x1="50" y1="50" x2="50" y2="10" class="hand sec quantum-hand"/>
           
+          <!-- Pontos quânticos -->
           <circle cx="50" cy="15" r="1.5" class="quantum-dot"/>
           <circle cx="65" cy="35" r="1.5" class="quantum-dot"/>
           <circle cx="35" cy="65" r="1.5" class="quantum-dot"/>
@@ -158,14 +162,13 @@
       </div>
     </aside>
 
+    <!-- Painel central principal -->
     <main class="content-panel">
       <div class="header-section">
         <h1 class="logo">
-          <span class="logo-alchemy">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H7M17 19H7M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5z"/></svg>
-          </span>
-          <span class="logo-text">Alquimia dos Sentimentos</span>
-          <sup class="version">v1.0</sup>
+          <span class="logo-alchemy">⏳</span>
+          <span class="logo-text">Alquimia do Tempo</span>
+          <sup class="version">v2.0</sup>
         </h1>
         
         <div class="system-status">
@@ -179,6 +182,7 @@
         </div>
       </div>
 
+      <!-- Display temporal principal -->
       <div class="temporal-display">
         <div id="digital-clock" class="digital">00:00:00.000</div>
         
@@ -191,43 +195,32 @@
           
           <div class="dimension-badges">
             <div class="dimension-badge" data-dimension="temporal">
-              <span class="dimension-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-              </span>
+              <span class="dimension-icon">⏰</span>
               <span class="dimension-value" id="dimTemporal">--</span>
             </div>
             <div class="dimension-badge" data-dimension="spatial">
-              <span class="dimension-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-              </span>
+              <span class="dimension-icon">🌍</span>
               <span class="dimension-value" id="dimSpatial">--</span>
             </div>
             <div class="dimension-badge" data-dimension="lunar">
-              <span class="dimension-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
-              </span>
+              <span class="dimension-icon">🌙</span>
               <span class="dimension-value" id="dimLunar">--</span>
             </div>
             <div class="dimension-badge" data-dimension="quantum">
-              <span class="dimension-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M3 12c0-3.3 4-6 9-6s9 2.7 9 6-4 6-9 6-9-2.7-9-6Z" transform="rotate(45 12 12)"/><path d="M3 12c0-3.3 4-6 9-6s9 2.7 9 6-4 6-9 6-9-2.7-9-6Z" transform="rotate(-45 12 12)"/></svg>
-              </span>
+              <span class="dimension-icon">⚛️</span>
               <span class="dimension-value" id="dimQuantum">--</span>
             </div>
           </div>
         </div>
       </div>
 
+      <!-- Container de poesia e insight -->
       <section class="insight-container">
         <div class="poetry-card">
           <div class="poetry-header">
-            <span class="poetry-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-            </span>
+            <span class="poetry-icon">📜</span>
             <h3>Insight Poético</h3>
-            <button class="refresh-insight" id="refreshInsight" aria-label="Novo insight">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2v6h-6M3 12a9 9 0 0 1 15-6.7L21 8M3 22v-6h6M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
-            </button>
+            <button class="refresh-insight" id="refreshInsight" aria-label="Novo insight">⟳</button>
           </div>
           <p id="poetic-verse" class="poetic-verse">"O tempo é a substância de que sou feito."</p>
           <cite id="author" class="author">— Jorge Luis Borges</cite>
@@ -239,9 +232,7 @@
         
         <div class="quantum-card">
           <div class="quantum-header">
-            <span class="quantum-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 6v6l4 2"/></svg>
-            </span>
+            <span class="quantum-icon">🌀</span>
             <h3>Estado Quântico</h3>
             <div class="superposition-indicator" id="superpositionIndicator">
               <span class="indicator-dot"></span>
@@ -267,12 +258,11 @@
         </div>
       </section>
 
+      <!-- Grade de conhecimento multidimensional -->
       <div class="knowledge-grid">
         <div class="card dimension-card" data-dimension="temporal">
           <div class="card-header">
-            <span class="card-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.54-2.44V4.5A2.5 2.5 0 0 1 7 2h2.5zM14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.54-2.44V4.5A2.5 2.5 0 0 0 17 2h-2.5z"/></svg>
-            </span>
+            <span class="card-icon">🧠</span>
             <label>Neurociência & Psicologia</label>
             <span class="card-frequency" id="neuroFrequency">-- Hz</span>
           </div>
@@ -288,9 +278,7 @@
         
         <div class="card dimension-card" data-dimension="linguistic">
           <div class="card-header">
-            <span class="card-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 8 6 6 6-6"/><path d="m5 16 6 6 6-6"/></svg>
-            </span>
+            <span class="card-icon">🔤</span>
             <label>Algoritmo Gramatical</label>
             <span class="card-grammar-type" id="grammarType">Temporal</span>
           </div>
@@ -304,9 +292,7 @@
         
         <div class="card dimension-card full" data-dimension="pedagogical">
           <div class="card-header">
-            <span class="card-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-            </span>
+            <span class="card-icon">🎓</span>
             <label>Pedagogia do Instante</label>
             <div class="pedagogy-score" id="pedagogyScore">
               Aprendizado: <span>--</span>
@@ -352,14 +338,10 @@
         </div>
       </div>
 
+      <!-- Dashboard de análises -->
       <div class="analytics-panel">
         <div class="analytics-header">
-          <h3>
-            <span class="analytics-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-            </span> 
-            Dashboard Multidimensional
-          </h3>
+          <h3><span class="analytics-icon">📊</span> Dashboard Multidimensional</h3>
           <div class="time-range">
             <span id="analyticsTimeRange">Últimos 60s</span>
           </div>
@@ -415,6 +397,7 @@
       </div>
     </main>
 
+    <!-- Painel direito - Sincronicidade -->
     <aside class="side-bar sync-panel">
       <div class="panel-title">
         <h4>Sincronicidade</h4>
@@ -424,6 +407,8 @@
       <div class="sync-clock">
         <svg class="clock-svg" viewBox="0 0 100 100">
           <circle cx="50" cy="50" r="45" class="face sync-face"/>
+          
+          <!-- Marcadores de sincronicidade -->
           <g class="sync-markers">
             <line x1="50" y1="10" x2="50" y2="15" class="sync-marker" id="sync1"/>
             <line x1="70" y1="20" x2="74" y2="24" class="sync-marker" id="sync2"/>
@@ -438,6 +423,8 @@
           <line id="h-right" x1="50" y1="50" x2="50" y2="30" class="hand hour sync-hand"/>
           <line id="m-right" x1="50" y1="50" x2="50" y2="15" class="hand min sync-hand"/>
           <line id="s-right" x1="50" y1="50" x2="50" y2="10" class="hand sec sync-hand"/>
+          
+          <!-- Centro de sincronicidade -->
           <circle cx="50" cy="50" r="3" class="sync-center"/>
         </svg>
       </div>
@@ -476,21 +463,18 @@
       
       <div class="sync-actions">
         <button class="sync-btn" id="analyzePatterns">
-          <span class="btn-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          </span>
+          <span class="btn-icon">🔍</span>
           Analisar Padrões
         </button>
         <button class="sync-btn secondary" id="exportData">
-          <span class="btn-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-          </span>
+          <span class="btn-icon">📥</span>
           Exportar Dados
         </button>
       </div>
     </aside>
   </div>
 
+  <!-- Rodapé do sistema -->
   <footer class="system-footer">
     <div class="footer-content">
       <div class="footer-section">
@@ -532,6 +516,7 @@
     </div>
   </footer>
 
+  <!-- Modal de créditos -->
   <div class="modal" id="creditsModal">
     <div class="modal-content">
       <div class="modal-header">
