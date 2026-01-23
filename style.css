@@ -71,7 +71,7 @@
 }
 
 html {
-  font-size: 14px;
+  font-size: 10px;
   scroll-behavior: smooth;
 }
 
@@ -144,7 +144,7 @@ body {
 
 .collapse-text {
   margin-top: 20px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--quantum-blue);
   animation: pulse 2s infinite;
 }
@@ -230,11 +230,11 @@ header {
 .menu-header h3 {
   color: var(--quantum-blue);
   margin-bottom: 10px;
-  font-size: 1.0rem;
+  font-size: 0.7rem;
 }
 
 .menu-frequency {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--text-secondary);
 }
 
@@ -255,7 +255,7 @@ header {
   border: var(--border-thin);
   border-radius: var(--radius-medium);
   color: var(--text);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   transition: var(--transition-smooth);
 }
 
@@ -286,7 +286,7 @@ header {
   border: var(--border-thin);
   border-radius: var(--radius-small);
   color: var(--text-secondary);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   cursor: pointer;
   transition: var(--transition-smooth);
 }
@@ -318,7 +318,7 @@ header {
   border-radius: var(--radius-small);
   border-left: 3px solid transparent;
   transition: var(--transition-smooth);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .menu-item:hover {
@@ -336,7 +336,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--text-secondary);
 }
 
@@ -394,7 +394,7 @@ header {
 
 .panel-title h4 {
   color: var(--text);
-  font-size: 1.0rem;
+  font-size: 0.7rem;
 }
 
 .collapse-btn {
@@ -446,12 +446,12 @@ header {
 }
 
 .logo-alchemy {
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   animation: gentlePulse 4s infinite;
 }
 
 .logo-text {
-  font-size: 1.6rem;
+  font-size: 1.0rem;
   font-weight: 300;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
@@ -482,7 +482,7 @@ header {
   background: rgba(0, 180, 216, 0.1);
   border: 1px solid var(--quantum-blue);
   border-radius: var(--radius-medium);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .status-dot {
@@ -498,7 +498,7 @@ header {
   background: rgba(230, 164, 180, 0.1);
   border: 1px solid var(--secondary);
   border-radius: var(--radius-medium);
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .coherence-score span {
@@ -554,7 +554,7 @@ header {
 }
 
 .frequency-label {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--accent);
   margin-bottom: 5px;
   text-transform: uppercase;
@@ -562,7 +562,7 @@ header {
 }
 
 .frequency-value {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: white;
   margin-bottom: 5px;
@@ -570,7 +570,7 @@ header {
 }
 
 .frequency-type {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
   font-style: italic;
 }
@@ -599,11 +599,11 @@ header {
 }
 
 .dimension-icon {
-  font-size: 1.0rem;
+  font-size: 0.6rem;
 }
 
 .dimension-value {
-  font-size: 1.0rem;
+  font-size: 0.6rem;
   font-weight: bold;
   color: var(--quantum-blue);
 }
@@ -635,12 +635,12 @@ header {
 
 .poetry-icon,
 .quantum-icon {
-  font-size: 1.0rem;
+  font-size: 0.6rem;
 }
 
 .poetry-header h3,
 .quantum-header h3 {
-  font-size: 1.0rem;
+  font-size: 0.6rem;
   color: var(--text);
   flex-grow: 1;
 }
@@ -667,7 +667,7 @@ header {
 }
 
 .poetic-verse {
-  font-size: 1.0rem;
+  font-size: 0.6rem;
   line-height: 1.6;
   color: var(--text);
   margin-bottom: 15px;
@@ -681,7 +681,7 @@ header {
   display: block;
   text-align: right;
   color: var(--text-secondary);
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   margin-bottom: 15px;
 }
 
@@ -695,7 +695,7 @@ header {
   padding: 8px 15px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: var(--radius-small);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
 }
 
@@ -707,7 +707,7 @@ header {
   background: rgba(157, 78, 221, 0.2);
   border: 1px solid var(--quantum-purple);
   border-radius: var(--radius-small);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--quantum-purple);
 }
 
@@ -737,12 +737,12 @@ header {
 
 .vector-label {
   color: var(--text-secondary);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .vector-value {
   color: var(--quantum-blue);
-  font-size: 1.0rem;
+  font-size: 0.7rem;
   font-weight: bold;
 }
 
@@ -777,7 +777,7 @@ header {
 .prob-label {
   position: relative;
   z-index: 1;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: white;
   margin-right: 5px;
 }
@@ -785,7 +785,7 @@ header {
 .prob-value {
   position: relative;
   z-index: 1;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: white;
   font-weight: bold;
 }
@@ -824,11 +824,11 @@ header {
 }
 
 .card-icon {
-  font-size: 1.0rem;
+  font-size: 0.7rem;
 }
 
 .card-header label {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -841,12 +841,12 @@ header {
   padding: 5px 10px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: var(--radius-small);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--text-secondary);
 }
 
 .card-content {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   line-height: 1.6;
   color: var(--text);
   margin-bottom: 20px;
@@ -907,7 +907,7 @@ header {
 .grammar-stats {
   display: flex;
   gap: 15px;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
 }
 
@@ -932,7 +932,7 @@ header {
 
 .layer-name {
   width: 80px;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
 }
 
@@ -968,12 +968,12 @@ header {
 }
 
 .ped-label {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--text-secondary);
 }
 
 .ped-value {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: var(--quantum-teal);
 }
@@ -999,19 +999,19 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   color: var(--text);
 }
 
 .analytics-icon {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 
 .time-range {
   padding: 5px 15px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: var(--radius-small);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
 }
 
@@ -1036,12 +1036,12 @@ header {
 }
 
 .metric-header h4 {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
 }
 
 .metric-trend {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--quantum-teal);
 }
 
@@ -1078,7 +1078,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: bold;
   color: var(--quantum-teal);
 }
@@ -1109,7 +1109,7 @@ canvas {
 }
 
 .log-header h4 {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
 }
 
@@ -1119,7 +1119,7 @@ canvas {
   border: var(--border-thin);
   border-radius: var(--radius-small);
   color: var(--text-secondary);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   cursor: pointer;
   transition: var(--transition-smooth);
 }
@@ -1133,7 +1133,7 @@ canvas {
   max-height: 150px;
   overflow-y: auto;
   font-family: 'Courier New', monospace;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 .log-entry {
@@ -1257,7 +1257,7 @@ canvas {
 
 .metric label {
   display: block;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -1291,7 +1291,7 @@ canvas {
 
 .metric-value {
   text-align: right;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: var(--quantum-blue);
   margin-top: 5px;
@@ -1314,14 +1314,14 @@ canvas {
 }
 
 .physics-info h5 {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
   margin-bottom: 10px;
 }
 
 .physics-info ul {
   list-style: none;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text);
 }
 
@@ -1357,14 +1357,14 @@ canvas {
 
 .sync-value {
   text-align: right;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: var(--quantum-pink);
   margin-top: 5px;
 }
 
 .sync-count {
-  font-size: 1.6rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: var(--quantum-pink);
   text-align: center;
@@ -1380,7 +1380,7 @@ canvas {
   color: var(--quantum-pink);
   cursor: pointer;
   transition: var(--transition-smooth);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 .log-coincidence:hover {
@@ -1389,7 +1389,7 @@ canvas {
 }
 
 .sync-patterns h5 {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
   margin-bottom: 10px;
 }
@@ -1407,7 +1407,7 @@ canvas {
   padding: 10px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: var(--radius-small);
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .pattern-type {
@@ -1498,7 +1498,7 @@ canvas {
 }
 
 .info-item {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
 }
 
@@ -1531,7 +1531,7 @@ canvas {
   gap: 15px;
   justify-content: flex-end;
   align-items: center;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: var(--text-secondary);
 }
 
@@ -1541,7 +1541,7 @@ canvas {
   border: none;
   color: var(--quantum-blue);
   cursor: pointer;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   text-decoration: underline;
   transition: var(--transition-smooth);
 }
@@ -1596,7 +1596,7 @@ canvas {
 
 .modal-header h3 {
   color: var(--text);
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 
 .modal-close {
@@ -1628,7 +1628,7 @@ canvas {
   padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   color: var(--text-secondary);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 .modal-body li strong {
